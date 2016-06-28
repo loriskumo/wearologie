@@ -1,0 +1,6 @@
+@import 'reset';
+@import 'variables';
+@import 'base';
+@media all and (min-width: 769px){ 
+	@import 'base2';
+}
