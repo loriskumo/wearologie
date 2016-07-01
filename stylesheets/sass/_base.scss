@@ -1,9 +1,10 @@
 html {
-  font-size: 62.5%;
+	font-size: 62.5%;
+	background: url(../img/bg-wearologie.jpg) no-repeat center top fixed;
+	background-size: cover;
 }
 
 body {	
-	background: $black;
 	font-family: $mainfont;
 	font-weight: 300;
 	font-size: 1.6rem;
@@ -26,7 +27,7 @@ small{
 
 .logo{
 	max-width: 80%;
-	margin: 60px auto 40px;
+	margin: 30px auto 80px;
 }
  
 .center{
@@ -44,12 +45,12 @@ small{
 	}
 	
 	input.button{
-		background: $color;
+		background: $black;
 		text-transform: uppercase;
 		border: none;
 		border-radius: 0px;
 		&:hover{
-			background: darken($color, 10%);
+			background: darken($color, 30%);
 		}
 	}
 }

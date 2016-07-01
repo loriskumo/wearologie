@@ -73,11 +73,12 @@ a {
 /* MIXINS ---------------*/
 /*	@extend %vertical-align; */
 html {
-  font-size: 62.5%; }
+  font-size: 62.5%;
+  background: url(../img/bg-wearologie.jpg) no-repeat center top fixed;
+  background-size: cover; }
 
 body {
-  background: #2E2D2C;
-  font-family: "soleil", Helvetica, sans-serif;
+  font-family: "soleil", sans-serif;
   font-weight: 300;
   font-size: 1.6rem;
   color: #fff;
@@ -96,25 +97,25 @@ small {
 
 .logo {
   max-width: 80%;
-  margin: 60px auto 40px; }
+  margin: 30px auto 80px; }
 
 .center {
   text-align: center; }
 
 #mc_embed_signup {
   margin: 20px auto 20px;
-  font-family: "soleil", Helvetica, sans-serif; }
+  font-family: "soleil", sans-serif; }
   #mc_embed_signup input#mce-EMAIL {
     border: none;
     border-radius: 0px;
-    font-family: "soleil", Helvetica, sans-serif; }
+    font-family: "soleil", sans-serif; }
   #mc_embed_signup input.button {
-    background: #41adc5;
+    background: #000;
     text-transform: uppercase;
     border: none;
     border-radius: 0px; }
     #mc_embed_signup input.button:hover {
-      background: #318da2; }
+      background: #194954; }
 
 @media all and (min-width: 769px) {
   html {
