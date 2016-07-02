@@ -108,13 +108,15 @@ small {
     border: none;
     border-radius: 0px;
     font-family: "soleil", sans-serif; }
-  #mc_embed_signup input.button {
+  #mc_embed_signup #mc-embedded-subscribe {
+    -webkit-appearance: none;
+    display: block;
     background: #000;
     text-transform: uppercase;
     border: none;
     border-radius: 0px;
     -webkit-border-radius: 0px; }
-    #mc_embed_signup input.button:hover {
+    #mc_embed_signup #mc-embedded-subscribe:hover {
       background: #194954; }
 
 @media all and (min-width: 769px) {

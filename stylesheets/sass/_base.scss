@@ -43,7 +43,9 @@ small{
 		font-family: $mainfont;
 	}
 	
-	input.button{
+	#mc-embedded-subscribe{
+		-webkit-appearance: none;
+		display: block;
 		background: $black;
 		text-transform: uppercase;
 		border: none;
